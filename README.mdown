@@ -1,11 +1,11 @@
-# Sass Helper #
+# Sass/SCSS Helper #
  
-Version: 1.0.0  
-Author: [Max Wheeler](http://makenosound.com)  
+Version: 1.1
+Author: [Joe Kohlmann](https://jgraphics.net)  
 Build Date: 2009-10-20  
-Compatibility: Tested on Symphony 2.0.6+, should work for all 2.0.x versions
+Compatibility: Tested on Symphony 2.2.5, should work for all 2.0.x versions
 
-Lets you use Sass ([Syntactically Awesome StyleSheets][1]) for your Symphony site.
+Lets you use Sass or SCSS ([Syntactically Awesome StyleSheets][1]) for your Symphony site.
 
 ## Installation ##
  
@@ -13,15 +13,15 @@ Lets you use Sass ([Syntactically Awesome StyleSheets][1]) for your Symphony sit
 
         sudo gem install haml
  
-2. Upload the `sass_helper` folder in this archive to your Symphony `extensions` folder.
+2. Upload the `sass_scss_helper` folder in this archive to your Symphony `extensions` folder.
  
-3. Enable it by selecting the "Sass Helper", choosing "Enable" from the  with-selected menu, then clicking "Apply".
+3. Enable it by selecting the "Sass/SCSS Helper", choosing "Enable" from the  with-selected menu, then clicking "Apply".
  
-4. Links to `.sass` files in your templates will now be automatically converted to CSS.
+4. Links to `.sass` or `.scss` files in your templates will now be automatically converted to CSS.
 
 ## Usage ##
 
-To use the Sass Helper you simply need to point your CSS includes to your `.sass` instead of `.css`. The extension will automatically find them and generate a `.css` file in the same directory. For example, this:
+To use the Sass Helper you simply need to point your CSS includes to your `.sass` or `.scss` instead of `.css`. The extension will automatically find them and generate a `.css` file in the same directory. For example, this:
 
     <link href="{$workspace}/stylesheets/screen.sass" media="screen, projection" rel="stylesheet" type="text/css" />
 

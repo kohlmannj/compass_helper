@@ -1,9 +1,11 @@
-All source code included in the "Sass Helper" Symphony Extension archive is,
+All source code included in the "Sass/SCSS Helper" Symphony Extension archive is,
 unless otherwise specified, released under the MIT licence as follows:
 
 ----- begin license block -----
 
-Copyright 2009 Max Wheeler
+Copyright 2012 Joe Kohlmann
+
+Original work copyright 2009 Max Wheeler
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
